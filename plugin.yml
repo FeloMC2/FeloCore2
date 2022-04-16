@@ -1,0 +1,94 @@
+name: FeloCore
+version: '1.6-SNAPSHOT'
+main: spigot.felomc.dev.zexisc.felocore.FeloCore
+api-version: 1.17
+authors: [ Zexisc ]
+commands:
+  clearinv:
+    description: Clear inventory.
+    usage: /<command>
+    aliases:
+      - ci
+      - cleari
+      - cinventory
+      - clearinventory
+  bc:
+    description: Broadcast.
+    usage: /<command>
+    aliases:
+      - broadcast
+      - fbc
+      - broadc
+      - bcast
+  msg:
+    description: Msg.
+    usage: /<command>
+    aliases:
+      - whisper
+      - wis
+      - w
+      - msg
+      - m
+      - reply
+      - r
+  discord:
+    description: Discord link.
+    usage: /<command>
+  report:
+    description: Report.
+    usage: /<command>
+  felocore:
+    description: Main command.
+    usage: /<command>
+  heal:
+    description: Heal command.
+    usage: /<command>
+    aliases:
+      - h
+      - feloheal
+      - fheal
+  gmc:
+    description: Gamemode creative.
+    usage: /<command>
+  ping:
+    description: PINGGG.
+    usage: /<command>
+  bwl:
+    description: Banned word list
+    usage: /<command>
+    aliases:
+      - bannedwl
+      - badwordlist
+      - bannedwordlist
+      - bannedwordl
+      - bwlist
+      - ohno
+  feed:
+    description: Feed comand.
+    usage: /<command>
+    aliases:
+      - fed
+      - makanbang
+  devapply:
+    description: Developer apply.
+    usage: /<command>
+    aliases:
+      - applydev
+      - ad
+      - da
+      - developerapply
+      - dapply
+  developer:
+    description: Developer command.
+    usage: /<command>
+  day:
+    description: Time set to DAYYY.
+    usage: /<command>
+  fly:
+    description: Fly.
+    usage: /<command>
+  night:
+    description: Night command.
+    usage: /<command>
+  gms:
+    description: Gamemode survival.
